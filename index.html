@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PHUONGNAM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/leaf-icon.png" rel="icon"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid border-bottom d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Address</h6>
+                        <span>Đại Học Nông Lâm, Thành phố Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Email</h6>
+                        <span>22130175@st.hcmuaf.edu.vn</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Call Me</h6>
+                        <span>+012 345 6789</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Nam's Blog</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="hobbies.html" class="nav-item nav-link">Hobbies</a>
+                <a href="travel.html" class="nav-item nav-link">Travel</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="test.html" class="dropdown-item">Góc Tuyên Truyền</a>
+                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-1 text-uppercase text-dark mb-lg-4">Xin Chào</h1>
+                    <h1 class="text-uppercase text-dark mb-lg-4">Tôi là Phương Nam</h1>
+                    <p class="text-uppercase mb-1">Đây là một trang blog để chia sẻ về bản thân, những trải nghiệm về chuyến du lịch và cuộc sống hằng ngày hằng ngày của tôi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/avatar.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-primary ps-5 mb-5">
+                        <h6 class="text-primary text-uppercase">Giới Thiệu Về Bản Thân</h6>
+                        <h1 class="display-5 text-uppercase mb-0">Phương Nam</h1>
+                    </div>
+                    <h4 class="text-body mb-4">Họ và tên: Phạm Quốc Phương Nam</h4>
+                    <h4 class="text-body mb-4">Mã số sinh viên: 22130175</h4 >
+                    <div class="bg-light p-4">
+                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                    aria-selected="true">Sơ Yếu Lý Lịch</button>
+                            </li>
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                                    aria-selected="false">Học Vấn</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                                <p class="mb-0">Ngày Sinh (Birth Date): 02/10/2004</p>
+                                <p class="mb-0">Giới Tính (Sex): Nam (male)</p>
+                                <p class="mb-0">Quốc Tịch (Nationality): Việt Nam</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                                <p class="mb-0">Sinh viên khóa năm 2022 - k48 </p>
+                                <p class="mb-0">Chuyên ngành khoa Công Nghệ Thông Tin</p>
+                                <p class="mb-0">Lớp: DH22DTA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+
+    <!-- Hobbies Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Hobbies</h6>
+                <h1 class="display-5 text-uppercase mb-0">Sở thích cá nhân</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h1.png" alt="">
+                        <div> 
+                            <h5 class="text-uppercase mb-3"> Ăn uống</h5>
+                            <p>Ăn uống đối với tôi không chỉ là hoạt động bắt buộc mỗi ngày, đó còn là sở thích vô cùng quan trọng với tôi.
+                                 Tôi thích giây phút bản thân được nếm thử và cảm nhận hương vị, mùi vị của thức ăn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h2.png" alt="">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Ngủ</h5>
+                            <p>Ngủ chính là một công việc quan trọng nhất trong ngày. Để bộ não của chúng ta được nghỉ ngơi sau một ngày dài làm việc
+                                hoặc học tập.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h3.png" alt="">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Coding</h5>
+                            <p>Đây là sở thích và có thể là công việc tương lai của tôi. Tôi phải dành nhiều thời gian mỗi ngày để học và nâng cao 
+                                trình độ coding của bản thân.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h4.png" alt="">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Thú cưng</h5>
+                            <p>Tôi là một người cực kỳ yêu quý các loài động vật và thú cưng. Tôi nuôi rất nhiều "bé" chó, chúng quậy phá và đầy năng 
+                                động. Chúng là một người bạn thân và là gia đình của tôi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h5.png" alt="">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Âm nhạc</h5>
+                            <p>Âm nhạc chính là liều thuốc chửa lành cuộc sống. Tôi thích các thể loại âm nhạc như: R&B, POP, Classical, Hip-Hop.
+                              Âm nhạc giúp tôi thư giản não bộ và thêm nguồn năng lượng, niềm vui để khởi động ngày mới.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        <img class="hobbies" src="img/h6.png" alt="">
+                        <div>
+                            <h5 class="text-uppercase mb-3">Mua Sắm</h5>
+                            <p>Tôi "nghiện" cảm giác mua sắm, nó làm tôi hạnh phúc và thỏa mãn khi mua được những thứ mình thích như quần áo, vật 
+                                dụng cần thiết. Đó như là một một cách tự thưởng cho bản thân của tôi bằng những cố gắng và sức lực mà tôi bỏ ra. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobbies End -->
+
+    <!-- Travel Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Travel</h6>
+                <h1 class="display-5 text-uppercase mb-0">Hành Trình Du Lịch </h1>
+            </div>
+            <div class="owl-carousel product-carousel">
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center"> 
+                        <img title="Dinh Độc Lập" class="img-fluid mb-4" src="img/t1.jpg" alt="">
+                        <h6 class="text-uppercase ">Thành Phố Hồ Chí Minh</h6>
+                        <h5 class="text-primary mb-0">Việt Nam</h5>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img title="Tour Camping 1989" class="img-fluid mb-4" src="img/t2.jpg" alt="">
+                        <h6 class="text-uppercase">Đà Lạt</h6>
+                        <h5 class="text-primary mb-0">Việt Nam</h5>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img title="Bờ biển thành phố Vũng Tàu" class="img-fluid mb-4" src="img/t3.webp" alt="">
+                        <h6 class="text-uppercase">Vũng Tàu</h6>
+                        <h5 class="text-primary mb-0">Việt Nam</h5>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img title="Mũi Né" class="img-fluid mb-4" src="img/t4.jpg" alt="">
+                        <h6 class="text-uppercase">Phan Thiết</h6>
+                        <h5 class="text-primary mb-0">Việt Nam</h5>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img title="Grand World" class="img-fluid mb-4" src="img/t5.jpg" alt="">
+                        <h6 class="text-uppercase">Phú Quốc</h6>
+                        <h5 class="text-primary mb-0">Việt Nam</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Travel End -->
+
+
+    <!-- Start -->
+    <div class="container-fluid bg-offer my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5 justify-content-start">
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-dark ps-5 mb-5">
+                        <h6 class="text-dark text-uppercase">Châm ngôn sống của tôi</h6>
+                        <h1 class="display-5 text-uppercase text-white mb-0">Be your best self</h1>
+                    </div>
+                    <p class="text-white mb-4">“Be your best self” – Hãy trở thành phiên bản tốt nhất của chính mình chứ đừng “Just be yourself”.</p>
+                    <a href="https://happy.live/be-your-best-self-hay-tro-thanh-phien-ban-tot-nhat-cua-chinh-minh-chu-dung-just-be-yourself/" 
+                    class="btn btn-light py-md-3 px-md-5">Đọc thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End -->
+
+
+    <!-- Music Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Music</h6>
+                <h1 class="display-5 text-uppercase mb-0">Âm nhạc "liều thuốc" chữa lành của tôi</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5 mt-lg-5">
+                        <h2 class="text-uppercase">Album</h2>
+                        <h6 class="text-body mb-5">My Choice</h6>
+                        <div class="text-center bg-primary p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0"> ái-tlinh </h1>
+                        </div>
+                        <div class="text-center p-4">
+                                <img class="music" src="https://avatar-ex-swe.nixcdn.com/playlist/2023/08/11/1/5/3/5/1691747877290_500.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=82ZTNQNEQgE&t=3s&ab_channel=tlinh" class="btn btn-primary text-uppercase py-2 px-4 my-3">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5">
+                        <h2 class="text-uppercase">Song</h2>
+                        <h6 class="text-body mb-5">My favorite</h6>
+                        <div class="text-center bg-dark p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">Gone-Rosé</h1>
+                        </div>
+                        <div class="text-center p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <img class="music" src="https://assets.teenvogue.com/photos/604b6d5bedbcf8cdf30bd509/1:1/w_4000,h_4000,c_limit/ROSE_DigitalAlbumCover_4000.jpg" alt="">
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=K9_VFxzCuQ0&ab_channel=BLACKPINK" class="btn btn-primary text-uppercase py-2 px-4 my-3">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5 mt-lg-5">
+                        <h2 class="text-uppercase">Song</h2>
+                        <h6 class="text-body mb-5">The Best Choice</h6>
+                        <div class="text-center bg-primary p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">  Lovesick Girls </h1>
+                        </div>
+                        <div class="text-center p-4">
+                           <img class="music" src="https://upload.wikimedia.org/wikipedia/vi/5/5f/Blackpink-_The_Album.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=dyRsYk0LyA8&ab_channel=BLACKPINK" class="btn btn-primary text-uppercase py-2 px-4 my-3">Play</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Music End -->
+
+
+    <!-- Book Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Book</h6>
+                <h1 class="display-5 text-uppercase mb-0">Kho sách và truyện của tôi</h1>
+            </div>
+            <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://product.hstatic.net/200000343865/product/91_249f71358c944616857b97867ac12caf_master.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">One Piece</h5>
+                        <p class="m-0">Oda Eiichiro</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://bizweb.dktcdn.net/100/283/734/products/278743-p77977eimg729.jpg?v=1519041187827" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Cà phê cùng Tony</h5>
+                        <p class="m-0">Tony Buổi Sáng</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://thesolcity.com.vn/wp-content/uploads/2023/05/374393_p96858mnhbakhongphaisoinhungcungdunglacuujpm1-dy.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Không phải là sói nhưng cũng đừng là cừu</h5>
+                        <p class="m-0">Lê Bảo Ngọc</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://bookbuy.vn/Res/Images/Product/nhung-con-quai-vat-doi-lot-nguoi-trong-thi-tran_118884_1.png" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Những con quái vật đội lót người trong thị trấn</h5>
+                        <p class="m-0">Mitzi Szereto</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://salt.tikicdn.com/cache/w1200/ts/product/ec/21/cd/f04dfaffef2230bd4a2221ab975d6702.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Tôi không thích ồn ào</h5>
+                        <p class="m-0">Ashley Davis Bush</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://upload.wikimedia.org/wikipedia/vi/8/82/Jujutsu_Kaisen_vol_1_cover.jpeg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Chú Thuật Hồi Chiến</h5>
+                        <p class="m-0">Akutami Gege</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book End -->
+
+
+    <!--Start -->
+    <div class="container-fluid bg-testimonial py-5" style="margin: 45px 0;">
+        <div class="container py-5">
+            <div class="row justify-content-end">
+                <div class="col-lg-7">
+                    <div class="owl-carousel testimonial-carousel bg-white p-5">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid mx-auto" src="img/mt1.png" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-chat-square-quote text-primary"></i>
+                                </div>
+                            </div>
+                            <p>Môi trường biển hiện nay ô nhiễm rất nặng chắc chắn là điều ai cũng biết rõ, các sinh biển mất đi ngôi nhà của mình hoặc bị cơ thể quắn vào các rác thải nhựa
+                             và phải lớn lên và sinh sống trong cơ thể bị mắc kẹt vào những "món quà" của con người vứt đi. Một mình không thể nào có thể làm bãi rác ấy biến mất được
+                             nên tôi muốn lan tỏa được thông điệp này nhằm nâng cao ý thức của mỗi cá nhân khi đọc được. Biển cũng chính là ngôi nhà của ta và hãy cùng nhau bảo vệ ngôi nhà ấy.   
+                            </p>
+                            <hr class="w-25 mx-auto">
+                            <h5 class="text-uppercase text-primary">Góc Tuyên Truyền</h5>
+                            <span>Ô Nhiễm Môi Trường Biển</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid mx-auto" src="img/animal.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-chat-square-quote text-primary"></i>
+                                </div>
+                            </div>
+                            <p>Những loài động vật quý hiếm được liệt kê trong sách đỏ ngày càng tuyệt chủng dưới nạn săn bắn để thỏa mãn tham muốn của con người. Không chỉ các loài động vật quý hiếm và hoang dã 
+                                mà còn cái loại động vật được thuần hóa, động vật được nuôi trong nhà hay được xem là thú cưng như chó, mèo,... cũng phải chịu cảnh ngộ bạo lực để giải tỏa sự tức giận, nóng giận 
+                                vô cớ của loài người hoặc sở thích biến thái, bệnh hoạn của con người.
+                                "DO ONE THING TODAY TO HELP PROTECT THE WORLD'S WILDLIFE".
+                            </p>
+                            <hr class="w-25 mx-auto">
+                            <h5 class="text-uppercase text-primary">Góc Tuyên Truyền</h5>
+                            <span>Bảo Vệ Động Vật</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Latest Blog</h6>
+                <h1 class="display-5 text-uppercase mb-0">Một số Blog/Website hữu ích cho cuộc sống</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="blog-item">
+                        <div class="row g-0 bg-light overflow-hidden">
+                            <div class="col-12 col-sm-5 h-100">
+                                <img class="img-fluid h-100" src="img/food.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Esheep Kitchen</small>
+                                        <small><i class="bi bi-calendar-date me-2"></i>2018</small>
+                                    </div>
+                                    <h5 class="text-uppercase mb-3">Esheep Kitchen - Turning tasty into tasty and beautiful</h5>
+                                    <p>Trang web chia sẻ công thức nấu ăn, làm bánh, review đồ bếp.</p>
+                                    <a class="text-primary text-uppercase" href="https://www.esheepkitchen.com/">Xem chi tiết<i class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="blog-item">
+                        <div class="row g-0 bg-light overflow-hidden">
+                            <div class="col-12 col-sm-5 h-100">
+                                <img class="img-fluid h-100" src="img/book.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Waka</small>
+                                        <small><i class="bi bi-calendar-date me-2"></i>24/06/2019</small>
+                                    </div>
+                                    <h5 class="text-uppercase mb-3">Waka - Thư viện ebook Việt Nam</h5>
+                                    <p>Trang web đa dạng phong phú thể loại, cho mọi lứa tuổi, giao diện dễ sử dụng, đầu sách đa dạng.</p>
+                                    <a class="text-primary text-uppercase" href="https://ebook.waka.vn/">Xem chi tiết<i class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Thông Tin Liên Hệ</h5>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Trường Đại Học Nông Lâm, Thành phố Hồ Chí Minh</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>22130175@st.hcmuaf.edu.vn</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Liên Kết Nhanh</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="home.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About</a>
+                        <a class="text-body mb-2" href="hobbies.html"><i class="bi bi-arrow-right text-primary me-2"></i>Hobbies</a>
+                        <a class="text-body mb-2" href="blog.html"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-body" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Lời Cảm Ơn</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <p>Cảm ơn tất cả các bạn đã xem blog của mình và hãy theo dõi thường dõi mình. Mình sẽ chia sẻ nhiều thông tin hữu ích hơn. Hẹn gặp lại lần sau nhé.</p>
+
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Your Email">
+                            <button class="btn btn-primary">Đăng Nhập</button>
+                        </div>
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Follow Me</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-body">
+                    <a class="text-body" href="">Chính Sách Quyền Riêng Tư</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Hỗ Trợ Khách Hàng</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Help</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">PhuongNam</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
