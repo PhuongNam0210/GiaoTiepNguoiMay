@@ -6,6 +6,7 @@
     <title>PHUONGNAM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+
     <!-- Favicon -->
     <link href="img/leaf-icon.png" rel="icon">
 
@@ -58,7 +59,6 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="index.html" class="navbar-brand ms-lg-5">
@@ -70,89 +70,59 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lab 4</a>
                     <div class="dropdown-menu m-0">
-                        <a href="requirement.html" class="dropdown-item" >Requirement</a>
-                        <a href="design.html" class="dropdown-item" >Design</a>
-                        <a href="implement.html" class="dropdown-item" >Implement</a>
+                        <a href="requirement.html" class="dropdown-item">Requirement</a>
+                        <a href="design.html" class="dropdown-item">Design</a>
+                        <a href="implement.html" class="dropdown-item">Implement</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact<i class="bi bi-arrow-right"></i></a>
+                <a href="contact.html"
+                    class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact<i
+                        class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-
-    <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/avatar.jpg" style="object-fit: cover;">
+
+            <div class="bg-light p-4">
+                <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item w-50" role="presentation">
+                        <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                            aria-selected="true">Thiết kế trên giấy</button>
+                    </li>
+                    <li class="nav-item w-50" role="presentation">
+                        <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                            aria-selected="false">Thiết kế trên HTML</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                        <img src="img/cap3.jpg" alt="" style="width:500px; margin-top: 20px; margin-bottom: 20px; margin-left: 400px;">
+                        
+                        <a href="img/cap3.jpg"  download><button class="btn btn-primary"  style="height: 55px; width: 250px; margin-left:500px">Download</button></a>
                     </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">Giới Thiệu Về Bản Thân</h6>
-                        <h1 class="display-5 text-uppercase mb-0">Phương Nam</h1>
-                    </div>
-                    <h4 class="text-body mb-4">Họ và tên: Phạm Quốc Phương Nam</h4>
-                    <h4 class="text-body mb-4">Mã số sinh viên: 22130175</h4 >
-                    <div class="bg-light p-4">
-                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
-                                    aria-selected="true">Sơ Yếu Lý Lịch</button>
-                            </li>
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
-                                    aria-selected="false">Học Vấn</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">Ngày Sinh (Birth Date): 02/10/2004</p>
-                                <p class="mb-0">Giới Tính (Gender): Nam (male)</p>
-                                <p class="mb-0">Quốc Tịch (Nationality): Việt Nam</p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">Sinh viên khóa năm 2022 - k48 </p>
-                                <p class="mb-0">Chuyên ngành khoa Công Nghệ Thông Tin</p>
-                                <p class="mb-0">Lớp: DH22DTA</p>
-                            </div>
+                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                        <div style="margin-top: 20px; margin-bottom: 20px;">
+                            <img src="img/cap1.png" alt="" style="width:600px;">
+                            <img src="img/cap2.png" alt="" style="width:600px;">
                         </div>
+                        <a href="img/cap1.png"  download><button class="btn btn-primary"  style="height: 55px; width: 250px; margin-left:200px">Download <p>(Tải về ảnh 1)</p></button></a>
+                        <a href="img/cap2.png"  download><button class="btn btn-primary"  style="height: 55px; width: 250px; margin-left:50px">Download <p>(Tải về ảnh 2)</p></button></a>
+                        <a href="https://www.figma.com/file/sj6rRJSSgbQlyaGsX2tUaf/Untitled?type=design&node-id=0%3A1&mode=design&t=8kelg6xHr59rbb95-1"  target="_blank" ><button class="btn btn-primary"  style="height: 55px; width: 250px; margin-left:50px">Go to Figma </button></a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-    <!-- About End -->
-
-
-    <!-- Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-start">
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-dark ps-5 mb-5">
-                        <h6 class="text-dark text-uppercase">Châm ngôn sống của tôi</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Be your best self</h1>
-                    </div>
-                    <p class="text-white mb-4">“Be your best self” – Hãy trở thành phiên bản tốt nhất của chính mình chứ đừng “Just be yourself”.</p>
-                    <a href="https://happy.live/be-your-best-self-hay-tro-thanh-phien-ban-tot-nhat-cua-chinh-minh-chu-dung-just-be-yourself/" 
-                    class="btn btn-light py-md-3 px-md-5" target="_blank">Đọc thêm</a>
-                    <a href="http://127.0.0.1:5500/nammblog/index.html" class="btn btn-outline-light py-md-3 px-md-5 me-3">Quay lại trang chủ</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-light mt-5 py-5">
@@ -160,28 +130,31 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Thông Tin Liên Hệ</h5>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Trường Đại Học Nông Lâm, Thành phố Hồ Chí Minh</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Trường Đại Học Nông Lâm, Thành phố Hồ
+                        Chí Minh</p>
                     <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>22130175@st.hcmuaf.edu.vn</p>
                     <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Liên Kết Nhanh</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="home.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-body mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About</a>
-                        <a class="text-body mb-2" href="hobbies.html"><i class="bi bi-arrow-right text-primary me-2"></i>Hobbies</a>
-                        <a class="text-body mb-2" href="blog.html"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-body" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Me</a>
+                        <a class="text-body mb-2" href="home.html"><i
+                                class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="about.html"><i
+                                class="bi bi-arrow-right text-primary me-2"></i>About</a>
+                        <a class="text-body" href="contact.html"><i
+                                class="bi bi-arrow-right text-primary me-2"></i>Contact Me</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Lời Cảm Ơn</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <p>Cảm ơn tất cả các bạn đã xem blog của mình và hãy theo dõi thường dõi mình. Mình sẽ chia sẻ nhiều thông tin hữu ích hơn. Hẹn gặp lại lần sau nhé.</p>
+                        <p>Cảm ơn tất cả các bạn đã xem blog của mình và hãy theo dõi thường dõi mình. Mình sẽ chia sẻ
+                            nhiều thông tin hữu ích hơn. Hẹn gặp lại lần sau nhé.</p>
 
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
                     <form action="">
